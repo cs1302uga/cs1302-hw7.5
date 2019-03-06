@@ -2,7 +2,7 @@ package cs1302.ce19;
 
 import javafx.application.Application;
 
-public class ImageViewerDriver {
+public class ImageDriver {
 
     public static void main(String[] args) {
         try {
@@ -14,4 +14,4 @@ public class ImageViewerDriver {
         } // try
     } // main
 
-} // ImageViewerDriver
+} // ImageDriver
