@@ -53,7 +53,7 @@ following image:
              Stage                          -|
                |                             |
              Scene                           |
-   ~~~~~~~~~~~ | ~~~~~~~~~ -|                |
+               |           -|                |
               VBox          |                |
               / \           |                 \
              /   \           \                 | Overall
