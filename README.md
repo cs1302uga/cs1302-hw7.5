@@ -9,8 +9,6 @@ will create an interactive GUI that loads an image from a specified URL. The pro
 GIF, JPEG, and PNG formats. In this exercise, starter code containing the basic layout of a JavaFX application
 is provided. Implementation details are left to the student.
 
-<img src="https://github.com/cs1302uga/cs1302-ce19/blob/master/ScreenShot.png?raw=true" width=300>
-
 ## References and Prerequisites
 
 * [CSCI 1302 JavaFX 8 Bookmarks and Notes](http://cobweb.cs.uga.edu/~mec/cs1302/gui/)
@@ -42,7 +40,13 @@ command depends on your present working directory), then please note that contex
    ```
 
 ### Exercise Steps
-   
+
+In this checkpoint, you will focus on creating the basic GUI layout for the `ImageApp`. Don't worry about
+adding functionality to the button just yet.  At the end of the checkpoint, your GUI should look like the
+following image:
+
+<img src="https://github.com/cs1302uga/cs1302-ce19/blob/master/ScreenShot.png?raw=true" width=300>
+
 1. 
 
 **CHECKPOINT**
