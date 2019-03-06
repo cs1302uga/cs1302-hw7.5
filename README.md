@@ -1,5 +1,5 @@
 
-# cs1302-ce19 PushCounterApp
+# cs1302-ce19 ImageViewerApp
 
 > ```java
 > String notSecret = "VG8gSGVjayB3aXRoIFRlY2gh";
@@ -12,6 +12,8 @@ This class exercise explores functional interfaces, lambda expressions, and meth
 references in conjunction with generic methods and interfaces. In this exercise, 
 only the generic method signatures will be provided. Implementation details are left 
 to the student.
+
+<img src="https://github.com/cs1302uga/cs1302-ce19/blob/master/ScreenShot.png?raw=true" width=300>
 
 ## References and Prerequisites
 
