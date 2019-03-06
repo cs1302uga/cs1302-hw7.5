@@ -124,8 +124,41 @@ following image:
    
 **CHECKPOINT**
 
-1. 
+1. Now that you have your app looking good, let's make it do stuff. 
 
+1. In the `start` method of your `ImageApp` class, declare a variable
+   of type `EventHandler<ActionEvent>` called `loadHandler`, then assign
+   to it, using a lambda expression, an implementation of
+   `EventHandler<ActionEvent>` that prints out the text of the
+   `TextField` to standard output (i.e., the terminal).
+   **Recompile before continuing.**
+   
+   * Take special care that you import the correct `ActionEvent` class,
+     as a quick Internet search may recommend the wrong one!
+     Consult the 
+     [API Documentation](https://docs.oracle.com/javase/8/javafx/api/toc.htm) and 
+     [referenced bookmarks](http://cobweb.cs.uga.edu/~mec/cs1302/gui/)
+     to determine the import statements that are needed.
+     
+1. Once your app is able to print the text from the `TextField` to 
+   standard output, ammend the code that is also creates an `Image`
+   object using the supplied URL, then sets the `image` propery of
+   the `ImageView` using the appropriated setter method.
+   **Recompile before continuing.**
+   
+   * Your program should not crash when supplied invalid input. Use
+     exception handling, as needed, to make the experience nicer
+     for the user. While we will explore creating popup windows
+     and dialogs in the future, it is sufficient to print a friendly
+     error message to standard output instead of letting the
+     program crash or display a stack trace.
+     
+1. Stage and commit your changes.
+
+1. If you completed the steps correctly, your app should not only look 
+   similar to the screenshot provided above, but it has the desired
+   functionality. Congratulations on a good looking, functional app!
+        
 **CHECKPOINT**
 
 <hr/>
