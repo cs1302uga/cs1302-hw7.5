@@ -68,13 +68,64 @@ following image:
    [`javafx`](https://docs.oracle.com/javase/8/javafx/api/toc.htm)
    package. The diagram for the scene graph assumes that child nodes
    are added to their parents in a left-to-right order. For example,
-   The `HBox` and `ImageView` objects are added to the collection of
+   the `HBox` and `ImageView` objects are added to the collection of
    child nodes for the `VBox` object in that order.
    
-1. 
+1. Compile and run the starter code without any errors or warnings.
+   Specify `bin` as the default package for your compiled code.
+   
+   * If you have trouble running the starter code, then consult the 
+     [CSCI 1302 JavaFX Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx.md).
+     
+1. The contents of the scene represent part of the state of your application.
+   As such, the variables that we use to refer to those objects should be
+   instance variables of your class. Consult the 
+   [API Documentation](https://docs.oracle.com/javase/8/javafx/api/toc.htm) and 
+   [referenced bookmarks](http://cobweb.cs.uga.edu/~mec/cs1302/gui/)
+   to determine some of the import statements that are needed, then add them to
+   the file for your `ImageApp` class. **Recompile.** 
+   
+1. Stage and commit your changes.
+
+1. Now, for each object in the scene graph, declare an **instance variable** 
+   of the appropriate type with a good name. Do not create the objects here!
+   
+1. In the `start` method, construct the objects for the scene graph in
+   a top-down fashion, assigning their references to the instance variables
+   that you just declared. 
+   
+   1. Consult the 
+      [API Documentation](https://docs.oracle.com/javase/8/javafx/api/toc.htm) and 
+      for each class to see what constructors are available.
+      
+   1. For the `ImageView` object, we would like for you to create a separate
+      [`Image`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/Image.html)
+      object and use the 
+      [`ImageView(Image)`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/ImageView.html#ImageView-javafx.scene.image.Image-) constructor. The URL string that you should provide to
+      the `Image` constructor is:
+   
+      ```
+      http://cobweb.cs.uga.edu/~mec/cs1302/gui/default.png
+      ```
+      
+      **NOTE:** Do not use the `ImageView` constructor that directly takes a URL string.
+      If you do, then it will make it potentially more dificult to change the image
+      in a later step.
+  
+   1. Add any child nodes to the to their parent's 
+      collection of children using `getChildren().add`. 
+      
+   1. **Recompile and run.**
+
+1. Stage and commit your changes.
+
+1. If you completed the steps correctly, your app should look similar to
+   the screenshot provided above. Congratulations on a good looking app!
+   
 **CHECKPOINT**
 
 1. 
+
 **CHECKPOINT**
 
 <hr/>
