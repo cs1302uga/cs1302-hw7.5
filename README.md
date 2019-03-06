@@ -64,8 +64,14 @@ following image:
                            -|               -|
    ```
    
-   Each node corresponds to an object of the 
-
+   Each node corresponds to an object of some class under the 
+   [`javafx`](https://docs.oracle.com/javase/8/javafx/api/toc.htm)
+   package. The diagram for the scene graph assumes that child nodes
+   are added to their parents in a left-to-right order. For example,
+   The `HBox` and `ImageView` objects are added to the collection of
+   child nodes for the `VBox` in that order.
+   
+1. 
 **CHECKPOINT**
 
 1. 
