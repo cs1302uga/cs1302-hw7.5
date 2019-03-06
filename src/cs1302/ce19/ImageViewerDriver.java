@@ -1,13 +1,12 @@
-
 package cs1302.ce19;
 
 import javafx.application.Application;
 
-public class PushCounterDriver {
+public class ImageViewerDriver {
 
     public static void main(String[] args) {
         try {
-            Application.launch(PushCounterApp.class, args);
+            Application.launch(ImageViewerApp.class, args);
         } catch (Exception e) {
             System.err.println(e);
             System.err.println("Likely due to X11 timeout. Logout and log back in...");
@@ -15,4 +14,4 @@ public class PushCounterDriver {
         } // try
     } // main
 
-} // PushCounterDriver
+} // ImageViewerDriver
