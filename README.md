@@ -2,7 +2,7 @@
 # cs1302-ce19 ImageApp
 
 > The only way to get rid of temptation is to yield to it.
-> **Oscar Wilde, _The Picture of Dorian Gray_**
+> **-- Oscar Wilde, _The Picture of Dorian Gray_**
 
 This class exercise explores creating graphical user interfaces (GUIs) using the JavaFX library. Students
 will create an interactive GUI that loads an image from a specified URL. The program supports images in BMP, 
