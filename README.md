@@ -69,7 +69,7 @@ following image:
    package. The diagram for the scene graph assumes that child nodes
    are added to their parents in a left-to-right order. For example,
    The `HBox` and `ImageView` objects are added to the collection of
-   child nodes for the `VBox` in that order.
+   child nodes for the `VBox` object in that order.
    
 1. 
 **CHECKPOINT**
