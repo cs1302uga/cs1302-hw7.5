@@ -10,7 +10,7 @@ import javafx.scene.control.Button;
 import javafx.scene.text.Text;
 import javafx.scene.text.Font;
 
-public class ImageViewerApp extends Application {
+public class ImageApp extends Application {
 
     public void start(Stage stage) {
 
@@ -18,11 +18,11 @@ public class ImageViewerApp extends Application {
         Scene scene = new Scene(vbox);
 
         stage.setScene(scene);
-        stage.setTitle("1302 Image Viewer!");
+        stage.setTitle("cs1302 Image App!");
         stage.sizeToScene();
         stage.show();
 	
     } // main
 
-} // ImageViewerApp
+} // ImageApp
 
