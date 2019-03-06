@@ -49,6 +49,19 @@ following image:
 
 1. Consider the following containment heirarchy:
 
+   ```
+             Stage
+               |
+             Scene
+               |
+              VBox
+              / \
+             /   \
+           HBox  ImageView
+           / \
+          /   \
+   TextField  Button
+   ```
 
 **CHECKPOINT**
 
