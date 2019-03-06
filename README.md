@@ -47,7 +47,8 @@ following image:
 
 <img src="https://github.com/cs1302uga/cs1302-ce19/blob/master/ScreenShot.png?raw=true" width=300>
 
-1. 
+1. Consider the following containment heirarchy:
+
 
 **CHECKPOINT**
 
