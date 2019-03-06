@@ -50,18 +50,21 @@ following image:
 1. Consider the following containment heirarchy:
 
    ```
-             Stage
-               |
-             Scene
-               |
-              VBox
-              / \
-             /   \
-           HBox  ImageView
-           / \
-          /   \
-   TextField  Button
+             Stage                          -|
+               |                             |
+             Scene                           |
+   ~~~~~~~~~~~ | ~~~~~~~~~ -|                |
+              VBox          |                |
+              / \           |                 \
+             /   \           \                 | Overall
+           HBox  ImageView    | Scene Graph    | Containment
+           / \               /                 | Hierarchy
+          /   \             |                 /
+   TextField  Button        |                |
+                           -|               -|
    ```
+   
+   Each node corresponds to an object of the 
 
 **CHECKPOINT**
 
