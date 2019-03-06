@@ -15,9 +15,8 @@ to the student.
 
 ## References and Prerequisites
 
-* [Oracle: Generic Methods](https://docs.oracle.com/javase/tutorial/extra/generics/methods.html)
-* [Oracle: Lambda Expression](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)
-* [Oracle: Method References](https://docs.oracle.com/javase/tutorial/java/javaOO/methodreferences.html)
+* [CSCI 1302 JavaFX 8 Bookmarks and Notes](http://cobweb.cs.uga.edu/~mec/cs1302/gui/)
+* [CSCI 1302 JavaFX Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx.md)
 
 ## Questions
 
