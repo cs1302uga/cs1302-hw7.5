@@ -1,12 +1,8 @@
 
 # cs1302-ce19 ImageApp
 
-> ```java
-> String notSecret = "VG8gSGVjayB3aXRoIFRlY2gh";
-> String decoded = new String(java.util.Base64.getDecoder().decode(notSecret));
-> System.out.println(decoded);
-> ```
-> **-- Age Old Saying**
+> The only way to get rid of temptation is to yield to it.
+> **Oscar Wilde, _The Picture of Dorian Gray_**
 
 This class exercise explores creating graphical user interfaces (GUIs) using the JavaFX library. Students
 will create an interactive GUI that loads an image from a specified URL. The program supports images in BMP, 
