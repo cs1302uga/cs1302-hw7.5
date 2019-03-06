@@ -83,7 +83,7 @@ following image:
    [API Documentation](https://docs.oracle.com/javase/8/javafx/api/toc.htm) and 
    [referenced bookmarks](http://cobweb.cs.uga.edu/~mec/cs1302/gui/)
    to determine some of the import statements that are needed, then add them to
-   the file for your `ImageApp` class. **Recompile.** 
+   the file for your `ImageApp` class. **Recompile before continuing.** 
    
 1. Stage and commit your changes.
 
@@ -109,7 +109,7 @@ following image:
       ```
       
       **NOTE:** Do not use the `ImageView` constructor that directly takes a URL string.
-      If you do, then it will make it potentially more dificult to change the image
+      If you do, then it will make it potentially more difficult to change the image
       in a later step.
   
    1. Add any child nodes to the to their parent's 
