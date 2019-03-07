@@ -72,7 +72,7 @@ following image:
    the `HBox` and `ImageView` objects are added to the collection of
    child nodes for the `VBox` object in that order.
    
-1. Compile and run the starter code without any errors or warnings.
+1. **Compile and run the starter code without any errors or warnings.**
    Specify `bin` as the default package for your compiled code.
    
    * If you have trouble running the starter code, then consult the 
