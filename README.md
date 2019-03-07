@@ -50,17 +50,19 @@ following image:
 1. Consider the following containment heirarchy:
 
    ```
-             Stage                          -|
+   ------------------------------------------|
+             Stage                           |
                |                             |
              Scene                           |
-               |           -|                |
+   ------------|------------|----------------|
               VBox          |                |
               / \           |                 \
              /   \           \                 | Overall
            HBox  ImageView    | Scene Graph    | Containment
            / \               /                 | Hierarchy
           /   \             |                 /
-   TextField  Button       -|               -|
+   TextField  Button        |                |
+   -------------------------|----------------|
    ```
    
    Each node corresponds to an object of some class under the 
