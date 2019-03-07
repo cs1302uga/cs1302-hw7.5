@@ -10,8 +10,12 @@ import javafx.scene.control.Button;
 import javafx.scene.text.Text;
 import javafx.scene.text.Font;
 
+/** 
+ * Represents a basic image viewer app.
+ */
 public class ImageApp extends Application {
 
+    @Override
     public void start(Stage stage) {
 
         VBox vbox = new VBox();
