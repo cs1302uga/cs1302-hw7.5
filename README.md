@@ -60,8 +60,7 @@ following image:
            HBox  ImageView    | Scene Graph    | Containment
            / \               /                 | Hierarchy
           /   \             |                 /
-   TextField  Button        |                |
-                           -|               -|
+   TextField  Button       -|               -|
    ```
    
    Each node corresponds to an object of some class under the 
