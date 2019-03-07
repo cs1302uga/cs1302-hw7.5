@@ -149,7 +149,7 @@ following image:
    the `ImageView` using the appropriated setter method.
    **Recompile before continuing.**
    
-   * Here are some URLs to try:
+   * Here are some URLs to try when testing your program:
    
      * `http://cobweb.cs.uga.edu/~mec/cs1302/gui/pikachu.png`
      * `http://cobweb.cs.uga.edu/~mec/cs1302/gui/brad.jpg`
