@@ -149,6 +149,12 @@ following image:
    the `ImageView` using the appropriated setter method.
    **Recompile before continuing.**
    
+   * Here are some URLs to try:
+   
+     * `http://cobweb.cs.uga.edu/~mec/cs1302/gui/pikachu.png`
+     * `http://cobweb.cs.uga.edu/~mec/cs1302/gui/brad.jpg`
+     * `http://cobweb.cs.uga.edu/~mec/cs1302/gui/SuccessKid.jpg`
+   
    * Your program should not crash when supplied invalid input. Use
      exception handling, as needed, to make the experience nicer
      for the user. While we will explore creating popup windows
