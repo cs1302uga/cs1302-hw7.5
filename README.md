@@ -99,6 +99,8 @@ following image:
       [API Documentation](https://docs.oracle.com/javase/8/javafx/api/toc.htm) and 
       for each class to see what constructors are available.
       
+   1. Try to make the text content of visible nodes match the screenshot.
+      
    1. For the `ImageView` object, we would like for you to create a separate
       [`Image`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/Image.html)
       object and use the 
