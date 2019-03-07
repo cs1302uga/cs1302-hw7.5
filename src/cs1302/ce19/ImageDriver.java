@@ -2,8 +2,15 @@ package cs1302.ce19;
 
 import javafx.application.Application;
 
+/** 
+ * Driver for the {@code ImageApp} class.
+ */
 public class ImageDriver {
 
+    /**
+     * Main entry-point into the application.
+     * @param args the command-line arguments.
+     */
     public static void main(String[] args) {
         try {
             Application.launch(ImageApp.class, args);
