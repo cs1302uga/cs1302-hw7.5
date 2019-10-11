@@ -115,7 +115,7 @@ following image:
       If you do, then it will make it potentially more difficult to change the image
       in a later step.
   
-   1. Add any child nodes to the to their parent's 
+   1. Add any child nodes to their parent's 
       collection of children using `getChildren().add`. 
       
    1. **Recompile and run.**
