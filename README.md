@@ -113,7 +113,7 @@ following image:
       the `Image` constructor is:
    
       ```
-      http://cobweb.cs.uga.edu/~mec/cs1302/gui/default.png
+      "http://cobweb.cs.uga.edu/~mec/cs1302/gui/default.png"
       ```
       
       **NOTE:** Do not use the `ImageView` constructor that directly takes a URL string.
