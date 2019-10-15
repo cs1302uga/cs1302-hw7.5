@@ -1,6 +1,8 @@
 
 # cs1302-ce19 ImageApp
 
+![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+
 > The only way to get rid of temptation is to yield to it.
 > **-- Oscar Wilde, _The Picture of Dorian Gray_**
 
