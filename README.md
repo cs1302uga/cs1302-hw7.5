@@ -151,7 +151,7 @@ Now that you have your app looking good, let's make it do stuff!
      to determine the import statements that are needed.
      
 1. Once your app is able to print the text from the `TextField` to 
-   standard output, ammend the code that is also creates an `Image`
+   standard output, ammend the code so that is also creates an `Image`
    object using the supplied URL, then sets the `image` propery of
    the `ImageView` using the appropriated setter method.
    **Recompile before continuing.**
