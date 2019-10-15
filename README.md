@@ -127,7 +127,7 @@ following image:
       
    1. **Recompile and run.**
 
-1. Stage and commit your changes.
+1. Make sure your code passes the `checkstyle` audit, then stage and commit all changes.
 
 1. If you completed the steps correctly, your app should look similar to
    the screenshot provided above. Congratulations on a good looking app!
@@ -162,14 +162,15 @@ Now that you have your app looking good, let's make it do stuff!
      * `http://cobweb.cs.uga.edu/~mec/cs1302/gui/brad.jpg`
      * `http://cobweb.cs.uga.edu/~mec/cs1302/gui/SuccessKid.jpg`
    
-   * Your program should not crash when supplied invalid input. Use
+   * **We will check this:** 
+     Your program should not crash when supplied invalid input. Use
      exception handling, as needed, to make the experience nicer
      for the user. While we will explore creating popup windows
      and dialogs in the future, it is sufficient to print a friendly
      error message to standard output instead of letting the
      program crash or display a stack trace.
      
-1. Stage and commit your changes.
+1. Make sure your code passes the `checkstyle` audit, then stage and commit all changes.
 
 1. If you completed the steps correctly, your app should not only look 
    similar to the screenshot provided above, but it has the desired
