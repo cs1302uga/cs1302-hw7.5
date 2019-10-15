@@ -85,10 +85,10 @@ following image:
      
 1. The contents of the scene represent part of the state of your application.
    As such, the variables that we use to refer to those objects should be
-   instance variables of your class. Consult the 
+   instance variables of your class. Don't add the instance variables yet. First, consult the 
    [API Documentation](https://docs.oracle.com/javase/8/javafx/api/toc.htm) and 
    [referenced bookmarks](http://cobweb.cs.uga.edu/~mec/cs1302/gui/)
-   to determine some of the import statements that are needed, then add them to
+   to determine the **import statements** that are needed, then add them to
    the file for your `ImageApp` class. **Recompile before continuing.** 
    
 1. Stage and commit your changes.
@@ -132,7 +132,7 @@ following image:
    
 **CHECKPOINT**
 
-1. Now that you have your app looking good, let's make it do stuff. 
+Now that you have your app looking good, let's make it do stuff!
 
 1. In the `start` method of your `ImageApp` class, declare a variable
    of type `EventHandler<ActionEvent>` called `loadHandler`, then assign
