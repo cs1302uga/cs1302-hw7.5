@@ -9,6 +9,11 @@ will create an interactive GUI that loads an image from a specified URL. The pro
 GIF, JPEG, and PNG formats. In this exercise, starter code containing the basic layout of a JavaFX application
 is provided. Implementation details are left to the student.
 
+## Course-Specific Learning Outcomes
+
+* **LO2.e:** (Partial) Utilize existing generic methods, interfaces, and classes in a software solution.
+* **LO7.a:** (Partial) Design and implement a graphical user interface in a software project.
+
 ## References and Prerequisites
 
 * [CSCI 1302 JavaFX 8 Bookmarks and Notes](http://cobweb.cs.uga.edu/~mec/cs1302/gui/)
