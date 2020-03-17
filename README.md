@@ -193,7 +193,7 @@ Now that you have your app looking good, let's make it do stuff!
    
    ```
    1. Sally Smith (811-000-999)
-   2. Collaborators: Joe 
+   2. Collaborators: Joe Allen, Stacie Mack
    3. Weekly Code: replace-with-actual-code
    ```
 
