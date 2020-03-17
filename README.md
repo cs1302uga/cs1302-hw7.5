@@ -2,6 +2,10 @@
 # cs1302-ce19 ImageApp
 
 ![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+<!--
+![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
+![Instruction: Online](https://img.shields.io/badge/Instruction-Online-important)
+-->
 
 > The only way to get rid of temptation is to yield to it.
 > **-- Oscar Wilde, _The Picture of Dorian Gray_**
@@ -178,9 +182,25 @@ Now that you have your app looking good, let's make it do stuff!
         
 ![CP](https://img.shields.io/badge/Checkpoint-2-success?style=for-the-badge)
 
-1. Do one final check to ensure your code passes the `checkstyle` audit, then stage and commit all changes, if needed.
+1. Create a plain text file called `SUBMISSION.md` directly inside `cs1302-ce19`
+   with the following information:
 
-2. Change into the parent directory and use the `submit` command to submit this exercise to `cs1302a`:
+   1. Your name and UGA ID number;
+   1. Collaborator names, if any; and
+   1. The weekly code (listed with the exercise on eLC).
+   
+   Here is an example:
+   
+   ```
+   1. Sally Smith (811-000-999)
+   2. Collaborators: Joe 
+   3. Weekly code: replace-with-actual-code
+   ```
+
+1. Add and commit `SUBMISSION.md`. Also, do a final check to ensure your code 
+   passes the `checkstyle` audit, then stage and commit all changes, if needed.
+
+1. Change into the parent directory and use the `submit` command to submit this exercise to `cs1302a`:
    
    ```
    $ submit cs1302-ce19 cs1302a
