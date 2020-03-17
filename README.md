@@ -132,7 +132,7 @@ following image:
 1. If you completed the steps correctly, your app should look similar to
    the screenshot provided above. Congratulations on a good looking app!
    
-**CHECKPOINT**
+![CP](https://img.shields.io/badge/Checkpoint-1-success?style=for-the-badge)
 
 Now that you have your app looking good, let's make it do stuff!
 
@@ -176,7 +176,7 @@ Now that you have your app looking good, let's make it do stuff!
    similar to the screenshot provided above, but it has the desired
    functionality. Congratulations on a good looking, functional app!
         
-**CHECKPOINT**
+![CP](https://img.shields.io/badge/Checkpoint-2-success?style=for-the-badge)
 
 1. Do one final check to ensure your code passes the `checkstyle` audit, then stage and commit all changes, if needed.
 
