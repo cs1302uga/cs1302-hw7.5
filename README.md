@@ -186,7 +186,7 @@ Now that you have your app looking good, let's make it do stuff!
    $ submit cs1302-ce19 cs1302a
    ```
    
-**SUBMISSION CHECKPOINT**
+![CP](https://img.shields.io/badge/Checkpoint-Submission-success?style=for-the-badge)
 
 <hr/>
 
