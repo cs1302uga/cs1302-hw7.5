@@ -178,6 +178,16 @@ Now that you have your app looking good, let's make it do stuff!
         
 **CHECKPOINT**
 
+1. Do one final check to ensure your code passes the `checkstyle` audit, then stage and commit all changes, if needed.
+
+2. Change into the parent directory and use the `submit` command to submit this exercise to `cs1302a`:
+   
+   ```
+   $ submit cs1302-ce19 cs1302a
+   ```
+   
+**SUBMISSION CHECKPOINT**
+
 <hr/>
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
