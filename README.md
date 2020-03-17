@@ -194,7 +194,7 @@ Now that you have your app looking good, let's make it do stuff!
    ```
    1. Sally Smith (811-000-999)
    2. Collaborators: Joe 
-   3. Weekly code: replace-with-actual-code
+   3. Weekly Code: replace-with-actual-code
    ```
 
 1. Add and commit `SUBMISSION.md`. Also, do a final check to ensure your code 
