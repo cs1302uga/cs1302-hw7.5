@@ -179,6 +179,8 @@ Now that you have your app looking good, let's make it do stuff!
         
 ![CP](https://img.shields.io/badge/Checkpoint-2-success?style=for-the-badge)
 
+**Each student needs to individually submit their own work.**
+
 1. Create a plain text file called `SUBMISSION.md` directly inside `cs1302-ce19`
    with the following information:
 
