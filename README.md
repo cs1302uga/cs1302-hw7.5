@@ -159,9 +159,9 @@ Now that you have your app looking good, let's make it do stuff!
    
    * Here are some URLs to try when testing your program:
    
-     * `http://cobweb.cs.uga.edu/~mec/cs1302/gui/pikachu.png`
-     * `http://cobweb.cs.uga.edu/~mec/cs1302/gui/brad.jpg`
-     * `http://cobweb.cs.uga.edu/~mec/cs1302/gui/SuccessKid.jpg`
+     * `http://csweb.cs.uga.edu/~mec/cs1302/gui/pikachu.png`
+     * `http://csweb.cs.uga.edu/~mec/cs1302/gui/brad.jpg`
+     * `http://csweb.cs.uga.edu/~mec/cs1302/gui/SuccessKid.jpg`
    
    * **We will check this:** 
      Your program should not crash when supplied invalid input. Use
