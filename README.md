@@ -1,8 +1,7 @@
 
 # cs1302-ce19 ImageApp
 
-![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
-![Instruction: Online](https://img.shields.io/badge/Instruction-Online-important)
+![Approved for: Fall 2020](https://img.shields.io/badge/Approved%20for-Fall%202020-blueviolet)
 
 > The only way to get rid of temptation is to yield to it.
 > **-- Oscar Wilde, _The Picture of Dorian Gray_**
@@ -12,6 +11,16 @@ will create an interactive GUI that loads an image from a specified URL. The pro
 GIF, JPEG, and PNG formats. In this exercise, starter code containing the basic layout of a JavaFX application
 is provided. Implementation details are left to the student.
 
+## Introductory Video
+
+The following video contains a brief introduction to the exercise and a demo: 
+
+https://www.youtube.com/watch?v=v4_0DxmpTDU
+
+<a href="https://www.youtube.com/watch?v=v4_0DxmpTDU">
+<img src="http://i3.ytimg.com/vi/v4_0DxmpTDU/hqdefault.jpg" alt="IMAGE ALT TEXT">
+</a>
+
 ## Course-Specific Learning Outcomes
 
 * **LO2.e:** (Partial) Utilize existing generic methods, interfaces, and classes in a software solution.
@@ -19,13 +28,14 @@ is provided. Implementation details are left to the student.
 
 ## References and Prerequisites
 
-* [CSCI 1302 JavaFX 8 Bookmarks and Notes](http://cobweb.cs.uga.edu/~mec/cs1302/gui/)
 * [CSCI 1302 JavaFX Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx.md)
+* [JavaFX 11 Bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
+* [JavaFX 11 API Documentation](https://openjfx.io/javadoc/11/)
 
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the Nike server. 
+logged into the Odin server. 
 
 **NOTE:** If a step requires you to enter in a command, please provide in your notes the full 
 command that you typed to make the related action happen. If context is necessary (e.g., the 
@@ -33,7 +43,7 @@ command depends on your present working directory), then please note that contex
 
 ### Getting Started
 
-1. Use Git to clone the repository for this exercise onto Nike into a subdirectory called `cs1302-ce19`:
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-ce19`:
 
    ```
    $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce19.git
@@ -47,7 +57,9 @@ command depends on your present working directory), then please note that contex
    $ find src
    ```
 
-### Exercise Steps
+## Exercise Steps
+
+### Checkpoint 1 Steps
 
 In this checkpoint, you will focus on creating the basic GUI layout for the `ImageApp`. Don't worry about
 adding functionality to the button just yet.  At the end of the checkpoint, your GUI should look like the
@@ -74,7 +86,7 @@ following image:
    ```
    
    Each node corresponds to an object of some class under the 
-   [`javafx`](https://docs.oracle.com/javase/8/javafx/api/toc.htm)
+   [`javafx`](https://openjfx.io/javadoc/11/)
    package. The diagram for the scene graph assumes that child nodes
    are added to their parents in a left-to-right order. For example,
    the `HBox` and `ImageView` objects are added to the collection of
@@ -89,8 +101,8 @@ following image:
 1. The contents of the scene represent part of the state of your application.
    As such, the variables that we use to refer to those objects should be
    instance variables of your class. Don't add the instance variables yet. First, consult the 
-   [API Documentation](https://docs.oracle.com/javase/8/javafx/api/toc.htm) and 
-   [referenced bookmarks](http://cobweb.cs.uga.edu/~mec/cs1302/gui/)
+   [API Documentation](https://openjfx.io/javadoc/11/) and 
+   [referenced bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
    to determine the **import statements** that are needed, then add them to
    the file for your `ImageApp` class. **Recompile before continuing.** 
    
@@ -104,16 +116,16 @@ following image:
    that you just declared. 
    
    1. Consult the 
-      [API Documentation](https://docs.oracle.com/javase/8/javafx/api/toc.htm) and 
+      [API Documentation](https://openjfx.io/javadoc/11/) and 
       for each class to see what constructors are available.
       
    1. Try to make the text content of visible nodes match the screenshot.
       
    1. For the `ImageView` object, we would like for you to create a separate
-      [`Image`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/Image.html)
+      [`Image`](https://openjfx.io/javadoc/11/javafx.graphics/javafx/scene/image/Image.html)
       object and use the 
-      [`ImageView(Image)`](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/image/ImageView.html#ImageView-javafx.scene.image.Image-) constructor. The URL string that you should provide to
-      the `Image` constructor is:
+      [`ImageView(Image)`](https://openjfx.io/javadoc/11/javafx.graphics/javafx/scene/image/ImageView.html#%3Cinit%3E(javafx.scene.image.Image)) constructor. 
+      The URL string that you should provide to the `Image` constructor is:
    
       ```
       "http://cobweb.cs.uga.edu/~mec/cs1302/gui/default.png"
@@ -133,7 +145,13 @@ following image:
 1. If you completed the steps correctly, your app should look similar to
    the screenshot provided above. Congratulations on a good looking app!
    
-![CP](https://img.shields.io/badge/Checkpoint-1-success?style=for-the-badge)
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 2 Steps
 
 Now that you have your app looking good, let's make it do stuff!
 
@@ -147,8 +165,8 @@ Now that you have your app looking good, let's make it do stuff!
    * Take special care that you import the correct `ActionEvent` class,
      as a quick Internet search may recommend the wrong one!
      Consult the 
-     [API Documentation](https://docs.oracle.com/javase/8/javafx/api/toc.htm) and 
-     [referenced bookmarks](http://cobweb.cs.uga.edu/~mec/cs1302/gui/)
+    [API Documentation](https://openjfx.io/javadoc/11/) and 
+    [referenced bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
      to determine the import statements that are needed.
      
 1. Once your app is able to print the text from the `TextField` to 
@@ -177,35 +195,51 @@ Now that you have your app looking good, let's make it do stuff!
    similar to the screenshot provided above, but it has the desired
    functionality. Congratulations on a good looking, functional app!
         
-![CP](https://img.shields.io/badge/Checkpoint-2-success?style=for-the-badge)
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Submission Steps
 
 **Each student needs to individually submit their own work.**
 
-1. Create a plain text file called `SUBMISSION.md` directly inside `cs1302-ce19`
-   with the following information:
+1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce19`
+   directory with the following information.
 
    1. Your name and UGA ID number;
    1. Collaborator names, if any; and
-   1. The weekly code (listed with the exercise on eLC).
+   1. If you created the API website, include the full link to the site you generated.
    
-   Here is an example:
+   Here is an example of the contents of `SUBMISSION.md`.
    
    ```
    1. Sally Smith (811-000-999)
    2. Collaborators: Joe Allen, Stacie Mack
-   3. Weekly Code: replace-with-actual-code
+   3. https://webwork.cs.uga.edu/~user/cs1302-ce19-doc
    ```
 
-1. Add and commit `SUBMISSION.md`. Also, do a final check to ensure your code 
-   passes the `checkstyle` audit, then stage and commit all changes, if needed.
+1. Change directories to the parent of `cs1302-ce19` (e.g., `cd ..` from `cs1302-ce19`). If you would like
+   to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
+   We won't repeat those steps here and you can view them as optional.
+   
+1. Use the `submit` command to submit this exercise to `csci-1302`:
+   
+   ```
+   $ submit cs1302-ce19 csci-1302
+   ```
+   
+   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
+   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
+   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
+   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
 
-1. Change into the parent directory and use the `submit` command to submit this exercise to `cs1302a`:
-   
-   ```
-   $ submit cs1302-ce19 cs1302a
-   ```
-   
-![CP](https://img.shields.io/badge/Checkpoint-Submission-success?style=for-the-badge)
+   **Note:** You must be on Odin to submit.
+
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished-Submission-success?style=for-the-badge)
 
 <hr/>
 
