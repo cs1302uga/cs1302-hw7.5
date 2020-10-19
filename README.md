@@ -11,16 +11,6 @@ will create an interactive GUI that loads an image from a specified URL. The pro
 GIF, JPEG, and PNG formats. In this exercise, starter code containing the basic layout of a JavaFX application
 is provided. Implementation details are left to the student.
 
-## Introductory Video
-
-The following video contains a brief introduction to the exercise and a demo: 
-
-https://www.youtube.com/watch?v=v4_0DxmpTDU
-
-<a href="https://www.youtube.com/watch?v=v4_0DxmpTDU">
-<img src="http://i3.ytimg.com/vi/v4_0DxmpTDU/hqdefault.jpg" alt="IMAGE ALT TEXT">
-</a>
-
 ## Course-Specific Learning Outcomes
 
 * **LO2.e:** (Partial) Utilize existing generic methods, interfaces, and classes in a software solution.
@@ -31,6 +21,16 @@ https://www.youtube.com/watch?v=v4_0DxmpTDU
 * [CSCI 1302 JavaFX Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx.md)
 * [JavaFX 11 Bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
 * [JavaFX 11 API Documentation](https://openjfx.io/javadoc/11/)
+
+## Introductory Video
+
+The following video contains a brief introduction to the exercise and a demo: 
+
+https://www.youtube.com/watch?v=v4_0DxmpTDU
+
+<a href="https://www.youtube.com/watch?v=v4_0DxmpTDU">
+<img src="http://i3.ytimg.com/vi/v4_0DxmpTDU/hqdefault.jpg" alt="IMAGE ALT TEXT">
+</a>
 
 ## Questions
 
