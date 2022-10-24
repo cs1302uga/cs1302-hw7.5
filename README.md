@@ -102,9 +102,9 @@ following image:
    
    1. Consult the 
       [API Documentation](https://openjfx.io/javadoc/17/) and 
-      for each class to see what constructors are available.
-      
-   1. Try to make the text content of visible nodes match the screenshot.
+      for each class to see what constructors are available. You will not want to call any constructors that
+      allow you to set the node's children. We will add children in the `init` method later. You can, however,
+      set the text content in the constructor to have it match the screenshot.
       
    1. For the `ImageView` object, we would like for you to create a separate
       [`Image`](https://openjfx.io/javadoc/17/javafx.graphics/javafx/scene/image/Image.html)
@@ -120,8 +120,8 @@ following image:
       If you do, then it will make it potentially more difficult to change the image
       in a later step.
   
-   1. Add any child nodes to their parent's 
-      collection of children using `getChildren().add`. 
+   1. In the `init` method, add any child nodes to their parent's collection of children using `getChildren().add`. **Note:** You cannot
+      create a `Scene` in the `init` method. The root of the scene graph (the `VBox`) is added to the scene in the `start` method.
       
    1. **Recompile and run.**
 
@@ -150,7 +150,6 @@ Now that you have your app looking good, let's make it do stuff!
    * Take special care that you import the correct `ActionEvent` class,
      as a quick Internet search may recommend the wrong one!
      Consult the 
-    [API Documentation](https://openjfx.io/javadoc/17/) and 
     [referenced bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
      to determine the import statements that are needed.
      
@@ -166,8 +165,7 @@ Now that you have your app looking good, let's make it do stuff!
      * `http://csweb.cs.uga.edu/~mec/cs1302/gui/brad.jpg`
      * `http://csweb.cs.uga.edu/~mec/cs1302/gui/SuccessKid.jpg`
    
-   * **We will check this:** 
-     Your program should not crash when supplied invalid input. Use
+   * Your program should not crash when supplied invalid input. Use
      exception handling, as needed, to make the experience nicer
      for the user. While we will explore creating popup windows
      and dialogs in the future, it is sufficient to print a friendly
