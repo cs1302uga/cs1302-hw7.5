@@ -1,5 +1,5 @@
 
-# cs1302-ce19 ImageApp
+# cs1302-hw7.5 ImageApp
 
 ![Approved for: Fall 2020](https://img.shields.io/badge/Approved%20for-Fall%202020-blueviolet)
 
@@ -188,44 +188,6 @@ Now that you have your app looking good, let's make it do stuff!
 <hr/>
 
 ![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
-
-<hr/>
-
-### Submission Steps
-
-**Each student needs to individually submit their own work.**
-
-1. Create a plain text file called `SUBMISSION.md` directly inside the `cs1302-ce19`
-   directory with the following information.
-
-   1. Your name and UGA ID number;
-   1. Collaborator names, if any; and
-   1. If you created the API website, include the full link to the site you generated.
-   
-   Here is an example of the contents of `SUBMISSION.md`.
-   
-   ```
-   1. Sally Smith (811-000-999)
-   2. Collaborators: Joe Allen, Stacie Mack
-   3. https://webwork.cs.uga.edu/~user/cs1302-ce19-doc
-   ```
-
-1. Change directories to the parent of `cs1302-ce19` (e.g., `cd ..` from `cs1302-ce19`). If you would like
-   to make a backup tar file, the instructions are in the submissions steps for [ce02](https://github.com/cs1302uga/cs1302-ce02).
-   We won't repeat those steps here and you can view them as optional.
-   
-1. Use the `submit` command to submit this exercise to `csci-1302`:
-   
-   ```
-   $ submit cs1302-ce19 csci-1302
-   ```
-   
-   Read the output of the submit command very carefully. If there is an error while submitting, then it will displayed 
-   in that output. Additionally, if successful, the submit command creates a new receipt file in the directory you 
-   submitted. The receipt file begins with rec and contains a detailed list of all files that were successfully submitted. 
-   Look through the contents of the rec file and always remember to keep that file in case there is an issue with your submission.
-
-   **Note:** You must be on Odin to submit.
 
 <hr/>
 
