@@ -1,8 +1,8 @@
-package cs1302.ce19;
+package cs1302.app;
 
 import javafx.application.Application;
 
-/** 
+/**
  * Driver for the {@code ImageApp} class.
  */
 public class ImageDriver {
