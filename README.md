@@ -33,13 +33,13 @@ command depends on your present working directory), then please note that contex
 
 ### Getting Started
 
-1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-ce19`:
+1. Use Git to clone the repository for this exercise onto Odin into a subdirectory called `cs1302-hw7.5`:
 
    ```
-   $ git clone --depth 1 https://github.com/cs1302uga/cs1302-ce19.git
+   $ git clone --depth 1 https://github.com/cs1302uga/cs1302-hw7.5.git
    ```
 
-1. Change into the `cs1302-ce19` directory that was just created and look around. There should be
+1. Change into the `cs1302-hw7.5` directory that was just created and look around. There should be
    multiple Java files contained within the directory structure. To see a listing of all of the 
    files under the `src` subdirectory, use the `find` command as follows:
    
@@ -55,7 +55,7 @@ In this checkpoint, you will focus on creating the basic GUI layout for the `Ima
 adding functionality to the button just yet.  At the end of the checkpoint, your GUI should look like the
 following image:
 
-<img src="https://github.com/cs1302uga/cs1302-ce19/blob/master/ScreenShot.png?raw=true" width=300>
+<img src="https://github.com/cs1302uga/cs1302-hw7.5/blob/master/ScreenShot.png?raw=true" width=300>
 
 1. Consider the following containment heirarchy:
 
