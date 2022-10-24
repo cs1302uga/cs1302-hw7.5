@@ -18,7 +18,7 @@ is provided. Implementation details are left to the student.
 
 ## References and Prerequisites
 
-* [CSCI 1302 JavaFX Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx.md)
+* [CSCI 1302 JavaFX Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/javafx/javafx.md)
 * [JavaFX Bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
 * [JavaFX API Documentation](https://openjfx.io/javadoc/17/)
 
@@ -86,7 +86,7 @@ following image:
    Specify `bin` as the default package for your compiled code.
    
    * If you have trouble running the starter code, then consult the 
-     [CSCI 1302 JavaFX Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx.md).
+     [CSCI 1302 JavaFX Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/javafx/javafx.md).
      
 1. The contents of the scene represent part of the state of your application.
    As such, the variables that we use to refer to those objects should be
@@ -188,10 +188,6 @@ Now that you have your app looking good, let's make it do stuff!
 <hr/>
 
 ![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
-
-<hr/>
-
-![CP](https://img.shields.io/badge/Just%20Finished-Submission-success?style=for-the-badge)
 
 <hr/>
 
