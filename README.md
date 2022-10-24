@@ -19,8 +19,8 @@ is provided. Implementation details are left to the student.
 ## References and Prerequisites
 
 * [CSCI 1302 JavaFX Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx.md)
-* [JavaFX 11 Bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
-* [JavaFX 11 API Documentation](https://openjfx.io/javadoc/11/)
+* [JavaFX Bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
+* [JavaFX API Documentation](https://openjfx.io/javadoc/17/)
 
 ## Questions
 
