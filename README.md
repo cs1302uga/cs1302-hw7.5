@@ -76,7 +76,7 @@ following image:
    ```
    
    Each node corresponds to an object of some class under the 
-   [`javafx`](https://openjfx.io/javadoc/11/)
+   [`javafx`](https://openjfx.io/javadoc/17/)
    package. The diagram for the scene graph assumes that child nodes
    are added to their parents in a left-to-right order. For example,
    the `HBox` and `ImageView` objects are added to the collection of
@@ -91,7 +91,7 @@ following image:
 1. The contents of the scene represent part of the state of your application.
    As such, the variables that we use to refer to those objects should be
    instance variables of your class. Don't add the instance variables yet. First, consult the 
-   [API Documentation](https://openjfx.io/javadoc/11/) and 
+   [API Documentation](https://openjfx.io/javadoc/17/) and 
    [referenced bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
    to determine the **import statements** that are needed, then add them to
    the file for your `ImageApp` class. **Recompile before continuing.** 
@@ -112,9 +112,9 @@ following image:
    1. Try to make the text content of visible nodes match the screenshot.
       
    1. For the `ImageView` object, we would like for you to create a separate
-      [`Image`](https://openjfx.io/javadoc/11/javafx.graphics/javafx/scene/image/Image.html)
+      [`Image`](https://openjfx.io/javadoc/17/javafx.graphics/javafx/scene/image/Image.html)
       object and use the 
-      [`ImageView(Image)`](https://openjfx.io/javadoc/11/javafx.graphics/javafx/scene/image/ImageView.html#%3Cinit%3E(javafx.scene.image.Image)) constructor. 
+      [`ImageView(Image)`](https://openjfx.io/javadoc/17/javafx.graphics/javafx/scene/image/ImageView.html#%3Cinit%3E(javafx.scene.image.Image)) constructor. 
       The URL string that you should provide to the `Image` constructor is:
    
       ```
@@ -155,7 +155,7 @@ Now that you have your app looking good, let's make it do stuff!
    * Take special care that you import the correct `ActionEvent` class,
      as a quick Internet search may recommend the wrong one!
      Consult the 
-    [API Documentation](https://openjfx.io/javadoc/11/) and 
+    [API Documentation](https://openjfx.io/javadoc/17/) and 
     [referenced bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
      to determine the import statements that are needed.
      
