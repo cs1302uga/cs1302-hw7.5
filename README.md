@@ -22,16 +22,6 @@ is provided. Implementation details are left to the student.
 * [JavaFX 11 Bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
 * [JavaFX 11 API Documentation](https://openjfx.io/javadoc/11/)
 
-## Introductory Video
-
-The following video contains a brief introduction to the exercise and a demo: 
-
-https://www.youtube.com/watch?v=v4_0DxmpTDU
-
-<a href="https://www.youtube.com/watch?v=v4_0DxmpTDU">
-<img src="http://i3.ytimg.com/vi/v4_0DxmpTDU/hqdefault.jpg" alt="IMAGE ALT TEXT">
-</a>
-
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
