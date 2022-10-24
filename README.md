@@ -47,6 +47,10 @@ command depends on your present working directory), then please note that contex
    $ find src
    ```
 
+1. Compile and run the code using the provided compile script (`compile.sh`). After running the script, you should
+   see a blank window pop up on your screen and output corresponding to the application lifecycle in the terminal.
+   If you don't see either of those, please let your instructor know.
+   
 ## Exercise Steps
 
 ### Checkpoint 1 Steps
@@ -81,32 +85,23 @@ following image:
    are added to their parents in a left-to-right order. For example,
    the `HBox` and `ImageView` objects are added to the collection of
    child nodes for the `VBox` object in that order.
-   
-1. **Compile and run the starter code without any errors or warnings.**
-   Specify `bin` as the default package for your compiled code.
-   
-   * If you have trouble running the starter code, then consult the 
-     [CSCI 1302 JavaFX Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/javafx/javafx.md).
      
 1. The contents of the scene represent part of the state of your application.
    As such, the variables that we use to refer to those objects should be
-   instance variables of your class. Don't add the instance variables yet. First, consult the 
-   [API Documentation](https://openjfx.io/javadoc/17/) and 
+   instance variables of your class. Don't add the instance variables yet. First, consult the  
    [referenced bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
    to determine the **import statements** that are needed, then add them to
    the file for your `ImageApp` class. **Recompile before continuing.** 
    
-1. Stage and commit your changes.
-
 1. Now, for each object in the scene graph, declare an **instance variable** 
    of the appropriate type with a good name. Do not create the objects here!
    
-1. In the `start` method, construct the objects for the scene graph in
+1. In the constructor, create the objects for the scene graph in
    a top-down fashion, assigning their references to the instance variables
    that you just declared. 
    
    1. Consult the 
-      [API Documentation](https://openjfx.io/javadoc/11/) and 
+      [API Documentation](https://openjfx.io/javadoc/17/) and 
       for each class to see what constructors are available.
       
    1. Try to make the text content of visible nodes match the screenshot.
