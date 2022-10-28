@@ -153,6 +153,11 @@ Now that you have your app looking good, let's make it do stuff!
     [referenced bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
      to determine the import statements that are needed.
      
+1. **Note** creating the `EventHandler<ActionEvent>` does not connect that handler to the `Button` object in the
+   scene graph. Before your button will function properly, you will need to set the handler to execute when
+   the button is clicked. If you are unsure of how to do this, please review the "Events and Event Handler" section
+   of the [1302 JavaFX Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/javafx/javafx.md#events-and-event-handlers).
+   
 1. Once your app is able to print the text from the `TextField` to 
    standard output, ammend the code so that is also creates an `Image`
    object using the supplied URL, then sets the `image` propery of
