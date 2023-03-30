@@ -7,7 +7,7 @@
 > **-- Oscar Wilde, _The Picture of Dorian Gray_**
 
 This class exercise explores creating graphical user interfaces (GUIs) using the JavaFX library. Students
-will create an interactive GUI that loads an image from a specified URL. The program supports images in BMP, 
+will create an interactive GUI that loads an image from a specified URL. The program supports images in BMP,
 GIF, JPEG, and PNG formats. In this exercise, starter code containing the basic layout of a JavaFX application
 is provided. Implementation details are left to the student.
 
@@ -24,11 +24,11 @@ is provided. Implementation details are left to the student.
 
 ## Questions
 
-In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the Odin server. 
+In your notes, clearly answer the following questions. These instructions assume that you are
+logged into the Odin server.
 
-**NOTE:** If a step requires you to enter in a command, please provide in your notes the full 
-command that you typed to make the related action happen. If context is necessary (e.g., the 
+**NOTE:** If a step requires you to enter in a command, please provide in your notes the full
+command that you typed to make the related action happen. If context is necessary (e.g., the
 command depends on your present working directory), then please note that context as well.
 
 ### Getting Started
@@ -40,9 +40,9 @@ command depends on your present working directory), then please note that contex
    ```
 
 1. Change into the `cs1302-hw7.5` directory that was just created and look around. There should be
-   multiple Java files contained within the directory structure. To see a listing of all of the 
+   multiple Java files contained within the directory structure. To see a listing of all of the
    files under the `src` subdirectory, use the `find` command as follows:
-   
+
    ```
    $ find src
    ```
@@ -50,7 +50,7 @@ command depends on your present working directory), then please note that contex
 1. Compile and run the code using the provided compile script (`compile.sh`). After running the script, you should
    see a blank window pop up on your screen and output corresponding to the application lifecycle in the terminal.
    If you don't see either of those, please let your instructor know.
-   
+
 ## Exercise Steps
 
 ### Checkpoint 1 Steps
@@ -78,58 +78,58 @@ following image:
           |    TextField  Button          |
           |--                           --|
    ```
-   
-   Each node corresponds to an object of some class under the 
+
+   Each node corresponds to an object of some class under the
    [`javafx`](https://openjfx.io/javadoc/17/)
    package. The diagram for the scene graph assumes that child nodes
    are added to their parents in a left-to-right order. For example,
    the `HBox` and `ImageView` objects are added to the collection of
    child nodes for the `VBox` object in that order.
-     
+
 1. The contents of the scene represent part of the state of your application.
    As such, the variables that we use to refer to those objects should be
-   instance variables of your class. Don't add the instance variables yet. First, consult the  
+   instance variables of your class. Don't add the instance variables yet. First, consult the
    [referenced bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
    to determine the **import statements** that are needed, then add them to
-   the file for your `ImageApp` class. **Recompile before continuing.** 
-   
-1. Now, for each object in the scene graph, declare an **instance variable** 
+   the file for your `ImageApp` class. **Recompile before continuing.**
+
+1. Now, for each object in the scene graph, declare an **instance variable**
    of the appropriate type with a good name. Do not create the objects here!
-   
+
 1. In the constructor, create the objects for the scene graph in
    a top-down fashion, assigning their references to the instance variables
-   that you just declared. 
-   
-   1. Consult the 
-      [API Documentation](https://openjfx.io/javadoc/17/) and 
+   that you just declared.
+
+   1. Consult the
+      [API Documentation](https://openjfx.io/javadoc/17/) and
       for each class to see what constructors are available. You will not want to call any constructors that
       allow you to set the node's children. We will add children in the `init` method later. You can, however,
       set the text content in the constructor to have it match the screenshot.
-      
+
    1. For the `ImageView` object, we would like for you to create a separate
       [`Image`](https://openjfx.io/javadoc/17/javafx.graphics/javafx/scene/image/Image.html)
-      object and use the 
-      [`ImageView(Image)`](https://openjfx.io/javadoc/17/javafx.graphics/javafx/scene/image/ImageView.html#%3Cinit%3E(javafx.scene.image.Image)) constructor. 
+      object and use the
+      [`ImageView(Image)`](https://openjfx.io/javadoc/17/javafx.graphics/javafx/scene/image/ImageView.html#%3Cinit%3E(javafx.scene.image.Image)) constructor.
       The URL string that you should provide to the `Image` constructor is:
-   
+
       ```
       "http://cobweb.cs.uga.edu/~mec/cs1302/gui/default.png"
       ```
-      
+
       **NOTE:** Do not use the `ImageView` constructor that directly takes a URL string.
       If you do, then it will make it potentially more difficult to change the image
       in a later step.
-  
+
    1. In the `init` method, add any child nodes to their parent's collection of children using `getChildren().add`. **Note:** You cannot
       create a `Scene` in the `init` method. The root of the scene graph (the `VBox`) is added to the scene in the `start` method.
-      
+
    1. **Recompile and run.**
 
 1. Make sure your code passes the `checkstyle` audit, then stage and commit all changes.
 
 1. If you completed the steps correctly, your app should look similar to
    the screenshot provided above. Congratulations on a good looking app!
-   
+
 <hr/>
 
 ![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
@@ -140,49 +140,49 @@ following image:
 
 Now that you have your app looking good, let's make it do stuff!
 
-1. In the `start` method of your `ImageApp` class, declare a variable
+1. In the `init` method of your `ImageApp` class, declare a variable
    of type `EventHandler<ActionEvent>` called `loadHandler`, then assign
    to it, using a lambda expression, an implementation of
    `EventHandler<ActionEvent>` that prints out the text of the
    `TextField` to standard output (i.e., the terminal).
    **Recompile before continuing.**
-   
+
    * Take special care that you import the correct `ActionEvent` class,
      as a quick Internet search may recommend the wrong one!
-     Consult the 
+     Consult the
     [referenced bookmarks](https://github.com/cs1302uga/cs1302-tutorials/blob/master/javafx/javafx-bookmarks.md)
      to determine the import statements that are needed.
-     
+
 1. Creating the `EventHandler<ActionEvent>` object does not connect that handler to the `Button` object in the
    scene graph. Before your button will function properly, you will need to set the handler to execute when
    the button is clicked. If you are unsure of how to do this, please review the "Events and Event Handler" section
    of the [1302 JavaFX Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/alsi/javafx/javafx.md#events-and-event-handlers).
-   
-1. Once your app is able to print the text from the `TextField` to 
+
+1. Once your app is able to print the text from the `TextField` to
    standard output, ammend the code so that is also creates an `Image`
    object using the supplied URL, then sets the `image` propery of
    the `ImageView` using the appropriated setter method.
    **Recompile before continuing.**
-   
+
    * Here are some URLs to try when testing your program:
-   
+
      * `http://csweb.cs.uga.edu/~mec/cs1302/gui/pikachu.png`
      * `http://csweb.cs.uga.edu/~mec/cs1302/gui/brad.jpg`
      * `http://csweb.cs.uga.edu/~mec/cs1302/gui/SuccessKid.jpg`
-   
+
    * Your program should not crash when supplied invalid input. Use
      exception handling, as needed, to make the experience nicer
      for the user. While we will explore creating popup windows
      and dialogs in the future, it is sufficient to print a friendly
      error message to standard output instead of letting the
      program crash or display a stack trace.
-     
+
 1. Make sure your code passes the `checkstyle` audit, then stage and commit all changes.
 
-1. If you completed the steps correctly, your app should not only look 
+1. If you completed the steps correctly, your app should not only look
    similar to the screenshot provided above, but it has the desired
    functionality. Congratulations on a good looking, functional app!
-        
+
 <hr/>
 
 ![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
@@ -193,7 +193,7 @@ Now that you have your app looking good, let's make it do stuff!
 
 <small>
 Copyright &copy; Michael E. Cotterell, Bradley J. Barnes, and the University of Georgia.
-This work is licensed under 
+This work is licensed under
 a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a> to students and the public and licensed under
 a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a> to instructors at institutions of higher education.
 The content and opinions expressed on this Web page do not necessarily reflect the views of nor are they endorsed by the University of Georgia or the University System of Georgia.
