@@ -1,5 +1,9 @@
 #!/bin/bash -ex
 
+# clean up / remove previously compiled files
+rm -rf bin
+mkdir bin
+
 # compile src/cs1302/app/ImageApp.java
 javac -d bin \
       -p $JAVAFX_HOME/lib --add-modules javafx.controls \
